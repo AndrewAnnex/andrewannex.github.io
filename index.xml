@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>※</title>
+    <link>https://andrewannex.github.io/</link>
+    <description>Recent content on ※</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 07 Jan 2018 16:53:33 -0500</lastBuildDate>
+    
+	<atom:link href="https://andrewannex.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Moody and Circ</title>
+      <link>https://andrewannex.github.io/moody-and-circ/</link>
+      <pubDate>Sun, 07 Jan 2018 16:53:33 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/moody-and-circ/</guid>
+      <description>Although SpiceyPy is my largest public python package, this blog post will be about two smaller, but conceptually important projects that I have started that I think present some interesting concepts for the planetary science community.
+Both of these tools are Command Line Interfaces (CLIs) that are built upon the excellent python package &amp;ldquo;python-fire&amp;rdquo;. Fire is able to produce a rich command line utility from the existing functions in a python file or class, with essentially no additional code other than the import for fire and a single function call.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://andrewannex.github.io/about/</link>
+      <pubDate>Sun, 07 Jan 2018 16:14:57 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/about/</guid>
+      <description>About me Andrew Annex is a graduate of The University of Virginia, class of 2014. He then worked as a software engineer for two years before starting at a PhD program in Earth and Planetary Sciences at The Johns Hopkins University in the fall of 2016.
+At Johns Hopkins, Andrew is researching surface processes on the planet Mars with an interest in applying machine learning to help out.
+Andrew is the author of the SpiceyPy python package which wraps the NASA SPICE library for python users.</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>https://andrewannex.github.io/first/</link>
+      <pubDate>Mon, 05 Sep 2016 00:30:40 -0400</pubDate>
+      
+      <guid>https://andrewannex.github.io/first/</guid>
+      <description>Welcome to my blog! I will be adding more content here about my studies and research over the next few weeks and months.
+thanks for reading. -A</description>
+    </item>
+    
+  </channel>
+</rss>

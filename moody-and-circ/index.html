@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.32.2" />
+
+  <title>Moody and Circ &middot; ※</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://andrewannex.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://andrewannex.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://andrewannex.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://andrewannex.github.ioimg/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://andrewannex.github.io/">※</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://andrewannex.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://andrewannex.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://andrewannex.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/AndrewAnnex" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/AndrewAnnex" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/AndrewAnnex" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Moody and Circ</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>07 Jan 2018, 16:53</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  
+
+<p>Although <a href="https://github.com/AndrewAnnex/SpiceyPy">SpiceyPy</a> is my largest public python package, this blog post will be about
+two smaller, but conceptually important projects that I have started that I think
+present some interesting concepts for the planetary science community.</p>
+
+<p>Both of these tools are Command Line Interfaces (CLIs) that are built upon the excellent python package <a href="https://github.com/google/python-fire">&ldquo;python-fire&rdquo;</a>. Fire is able to produce a rich command line utility from the existing functions in a python file or class, with essentially no additional code other than the import for fire and a single function call. Fire also grants you options like dropping into a REPL and tab completion. This from my view would be sufficient for most use cases I have and have seen. Alternatives like <a href="https://docs.python.org/3/library/argparse.html">&ldquo;argparse&rdquo;</a> which is built-in to python requires a lot more work and another package called <a href="http://click.pocoo.org/5/">&ldquo;click&rdquo;</a> is popular I just do not need access to the additional functionality. In short, I am able to write functions into a class and directly expose them with fire with essentially no additional code, and after uploading to pypi users can get access to this functionality in their terminals or use the same code as a python package.</p>
+
+<h3 id="moody">Moody</h3>
+
+<p>The first tool, <a href="https://github.com/AndrewAnnex/moody">&ldquo;moody&rdquo;</a>, provides a minimal interface to the Mars ODE REST api through the command line so that simple meta-data queries and provides commands to download HiRISE and CTX EDR images by partial product id. While HiRISE EDR products consist of several .IMG files, they are relatively easy to download using wget. In moody the command would look like:</p>
+
+<pre><code class="language-bash">moody hirise-edr PSP_001810_1825*
+</code></pre>
+
+<p>However CTX images are not able to be downloaded using the same trick as they are separated by data volumes, but by using the ODE I am able to query for the correct url without much work. Meta-data can be easily retrieved by running:</p>
+
+<pre><code class="language-bash">moody get-ctx-meta P19_008442_1899*
+</code></pre>
+
+<p>And if I am only interested in a single field the emission angle can be retrieved by:</p>
+
+<pre><code class="language-bash">moody get-ctx-meta-by-key P19_008442_1899*  Emission_angle
+</code></pre>
+
+<p>At the moment, the functionality for moody is fairly use-case focused, but my hope is that it will grow as more meta-data query use-cases are contributed. In any case, for users that want to perform programatic queries to the ODE, moody provides a template to build upon. My hope is that this tool will be useful for people who know a hirise or ctx product id, but just need to do quick lookups of meta-data without opening a web browser and having to click and scroll some page for the info.</p>
+
+<h3 id="circ">Circ</h3>
+
+<p>My newest tool, <a href="https://github.com/AndrewAnnex/circ">&ldquo;Circ&rdquo;</a>, attempts to construct reasonable mosaics using CTX images over a provided bounding box. This came out of a need to look at large areas of Mars where the existing CTX mosaic in Google Earth does not cover. It currently does this by first selecting the CTX images that intersect the user provided bounding box, and then selects images with low emission angles (which is configurable by the user). This is what the command looks like:</p>
+
+<pre><code class="language-bash">circ make-vrt 136.0 -7.0 139.5 -3.5 --name gale --em_tol 1.0
+</code></pre>
+
+<p>Here I am making a mosaic over Gale crater and I am limiting the emission angles to be no greater than 1.0 degrees to keep things consistently nadir.</p>
+
+<p>Then the collection is sorted by emission angle and area, and the foot prints are then intersected in a cascade operation so that footprints that almost completely overlap previous footprints are excluded. This reduces the total number of images needed to cover the area to a high degree, and then a similar reduction is then performed by stochastically sampling the collection to further reduce the number of images needed. This is a cheap way to get to good-enough results to what I think is something similar to a packing problem that I am sure is more elegantly solved elsewhere, but from what I have tested so far this works pretty well.</p>
+
+<p>Once the minimal set of images have been selected, the pre-computed pyramided geotiffs provided by the <a href="https://viewer.mars.asu.edu/viewer/ctx">&ldquo;ASU Mars Space Flight Facility&rdquo;</a> are then downloaded in parallel to a folder, and a GDAL VRT is built from the tiffs in that folder. In brief, VRTs are xml files that can point to multiple data sources readable by GDAL that can be local or remote, and then gdal treats the resulting vrt file as a single data source that can then be read directly by other GDAL powered applications like QGIS. For more on VRTs <a href="http://www.paolocorti.net/2012/03/08/gdal_virtual_formats/">this blog post</a> explains it with more detail. This results in an instant mosaic that can be viewed in QGIS, and then further gdal operations can create a single flat geotiff mosaic to save disk space. Here is a zoom in to the gale mosaic I made using the circ command above displayed in QGIS overlaying the MOLA shaded-colorized topography map:</p>
+
+<p><img class="pure-img" src=/img/gale_circ_vrt.jpg alt="Gale Mosaic from VRT created by circ"></img></p>
+
+<p>As you can see there is a pretty large gap by the Dulce Vallis and Farah Vallis markers, looking at the available images it looks like an image with an emission angle of around 2 degrees was excluded, but this is because I asked for images with equal to or less than 1 degree. Otherwise the results are usable. And of course if you needed to add an image to a VRT or remove one, you would simply update the folder containing all of the downloaded geotiffs and re-run gdalbuildvrt. A thing that is missing from Circ at the moment is the ability to histogram match the images to make the overlaps less obvious, but that is something I hope can either be contributed or eventually I will get to it if there is not some other existing utility or function in QGIS or gdal that can do it.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>In my first long blog post, I have discussed two CLI tools I have built for the martians of the planetary science community. I hope they prove to be useful! At the top I alluded to there being interesting concepts for the planetary community, and if I had not made it clear then I should say that it would be a great thing if more members and made their work available in command line tools. Spending a little time to polish them up makes these utilities better for your own use and will benefit the community as a whole if they are made available.</p>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://andrewannex.github.io/first/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://andrewannex.github.io/first/">First</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://andrewannex.github.iojs/ui.js"></script>
+
+
+
+
+
+
+</body>
+</html>
+
