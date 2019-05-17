@@ -4,43 +4,94 @@
     <title>※</title>
     <link>https://andrewannex.github.io/</link>
     <description>Recent content on ※</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 07 Jan 2018 16:53:33 -0500</lastBuildDate>
+    <copyright>{year}</copyright>
+    <lastBuildDate>Fri, 16 Nov 2018 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://andrewannex.github.io/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://andrewannex.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Moody and Circ</title>
-      <link>https://andrewannex.github.io/moody-and-circ/</link>
-      <pubDate>Sun, 07 Jan 2018 16:53:33 -0500</pubDate>
+      <title>Snakes on a Spaceship—An Overview of Python in Heliophysics</title>
+      <link>https://andrewannex.github.io/publication/snakes/</link>
+      <pubDate>Fri, 16 Nov 2018 00:00:00 -0500</pubDate>
       
-      <guid>https://andrewannex.github.io/moody-and-circ/</guid>
-      <description>Although SpiceyPy is my largest public python package, this blog post will be about two smaller, but conceptually important projects that I have started that I think present some interesting concepts for the planetary science community.
-Both of these tools are Command Line Interfaces (CLIs) that are built upon the excellent python package &amp;ldquo;python-fire&amp;rdquo;. Fire is able to produce a rich command line utility from the existing functions in a python file or class, with essentially no additional code other than the import for fire and a single function call.</description>
+      <guid>https://andrewannex.github.io/publication/snakes/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://andrewannex.github.io/about/</link>
-      <pubDate>Sun, 07 Jan 2018 16:14:57 -0500</pubDate>
+      <title>Moody and Circ</title>
+      <link>https://andrewannex.github.io/post/moody-and-circ/</link>
+      <pubDate>Sun, 07 Jan 2018 16:53:33 -0500</pubDate>
       
-      <guid>https://andrewannex.github.io/about/</guid>
-      <description>About me Andrew Annex is a graduate of The University of Virginia, class of 2014. He then worked as a software engineer for two years before starting at a PhD program in Earth and Planetary Sciences at The Johns Hopkins University in the fall of 2016.
-At Johns Hopkins, Andrew is researching surface processes on the planet Mars with an interest in applying machine learning to help out.
-Andrew is the author of the SpiceyPy python package which wraps the NASA SPICE library for python users.</description>
+      <guid>https://andrewannex.github.io/post/moody-and-circ/</guid>
+      <description>
+
+&lt;p&gt;Although &lt;a href=&#34;https://github.com/AndrewAnnex/SpiceyPy&#34; target=&#34;_blank&#34;&gt;SpiceyPy&lt;/a&gt; is my largest public python package, this blog post will be about
+two smaller, but conceptually important projects that I have started that I think
+present some interesting concepts for the planetary science community.&lt;/p&gt;
+
+&lt;p&gt;Both of these tools are Command Line Interfaces (CLIs) that are built upon the excellent python package &lt;a href=&#34;https://github.com/google/python-fire&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;python-fire&amp;rdquo;&lt;/a&gt;. Fire is able to produce a rich command line utility from the existing functions in a python file or class, with essentially no additional code other than the import for fire and a single function call. Fire also grants you options like dropping into a REPL and tab completion. This from my view would be sufficient for most use cases I have and have seen. Alternatives like &lt;a href=&#34;https://docs.python.org/3/library/argparse.html&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;argparse&amp;rdquo;&lt;/a&gt; which is built-in to python requires a lot more work and another package called &lt;a href=&#34;http://click.pocoo.org/5/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;click&amp;rdquo;&lt;/a&gt; is popular I just do not need access to the additional functionality. In short, I am able to write functions into a class and directly expose them with fire with essentially no additional code, and after uploading to pypi users can get access to this functionality in their terminals or use the same code as a python package.&lt;/p&gt;
+
+&lt;h3 id=&#34;moody&#34;&gt;Moody&lt;/h3&gt;
+
+&lt;p&gt;The first tool, &lt;a href=&#34;https://github.com/AndrewAnnex/moody&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;moody&amp;rdquo;&lt;/a&gt;, provides a minimal interface to the Mars ODE REST api through the command line so that simple meta-data queries and provides commands to download HiRISE and CTX EDR images by partial product id. While HiRISE EDR products consist of several .IMG files, they are relatively easy to download using wget. In moody the command would look like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;moody hirise-edr PSP_001810_1825*
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However CTX images are not able to be downloaded using the same trick as they are separated by data volumes, but by using the ODE I am able to query for the correct url without much work. Meta-data can be easily retrieved by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;moody get-ctx-meta P19_008442_1899*
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And if I am only interested in a single field the emission angle can be retrieved by:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;moody get-ctx-meta-by-key P19_008442_1899*  Emission_angle
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;At the moment, the functionality for moody is fairly use-case focused, but my hope is that it will grow as more meta-data query use-cases are contributed. In any case, for users that want to perform programatic queries to the ODE, moody provides a template to build upon. My hope is that this tool will be useful for people who know a hirise or ctx product id, but just need to do quick lookups of meta-data without opening a web browser and having to click and scroll some page for the info.&lt;/p&gt;
+
+&lt;h3 id=&#34;circ&#34;&gt;Circ&lt;/h3&gt;
+
+&lt;p&gt;My newest tool, &lt;a href=&#34;https://github.com/AndrewAnnex/circ&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Circ&amp;rdquo;&lt;/a&gt;, attempts to construct reasonable mosaics using CTX images over a provided bounding box. This came out of a need to look at large areas of Mars where the existing CTX mosaic in Google Earth does not cover. It currently does this by first selecting the CTX images that intersect the user provided bounding box, and then selects images with low emission angles (which is configurable by the user). This is what the command looks like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;circ make-vrt 136.0 -7.0 139.5 -3.5 --name gale --em_tol 1.0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here I am making a mosaic over Gale crater and I am limiting the emission angles to be no greater than 1.0 degrees to keep things consistently nadir.&lt;/p&gt;
+
+&lt;p&gt;Then the collection is sorted by emission angle and area, and the foot prints are then intersected in a cascade operation so that footprints that almost completely overlap previous footprints are excluded. This reduces the total number of images needed to cover the area to a high degree, and then a similar reduction is then performed by stochastically sampling the collection to further reduce the number of images needed. This is a cheap way to get to good-enough results to what I think is something similar to a packing problem that I am sure is more elegantly solved elsewhere, but from what I have tested so far this works pretty well.&lt;/p&gt;
+
+&lt;p&gt;Once the minimal set of images have been selected, the pre-computed pyramided geotiffs provided by the &lt;a href=&#34;https://viewer.mars.asu.edu/viewer/ctx&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;ASU Mars Space Flight Facility&amp;rdquo;&lt;/a&gt; are then downloaded in parallel to a folder, and a GDAL VRT is built from the tiffs in that folder. In brief, VRTs are xml files that can point to multiple data sources readable by GDAL that can be local or remote, and then gdal treats the resulting vrt file as a single data source that can then be read directly by other GDAL powered applications like QGIS. For more on VRTs &lt;a href=&#34;http://www.paolocorti.net/2012/03/08/gdal_virtual_formats/&#34; target=&#34;_blank&#34;&gt;this blog post&lt;/a&gt; explains it with more detail. This results in an instant mosaic that can be viewed in QGIS, and then further gdal operations can create a single flat geotiff mosaic to save disk space. Here is a zoom in to the gale mosaic I made using the circ command above displayed in QGIS overlaying the MOLA shaded-colorized topography map:&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;pure-img&#34; src=https://andrewannex.github.io/img/gale_circ_vrt.jpg alt=&#34;Gale Mosaic from VRT created by circ&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see there is a pretty large gap by the Dulce Vallis and Farah Vallis markers, looking at the available images it looks like an image with an emission angle of around 2 degrees was excluded, but this is because I asked for images with equal to or less than 1 degree. Otherwise the results are usable. And of course if you needed to add an image to a VRT or remove one, you would simply update the folder containing all of the downloaded geotiffs and re-run gdalbuildvrt. A thing that is missing from Circ at the moment is the ability to histogram match the images to make the overlaps less obvious, but that is something I hope can either be contributed or eventually I will get to it if there is not some other existing utility or function in QGIS or gdal that can do it.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;In my first long blog post, I have discussed two CLI tools I have built for the martians of the planetary science community. I hope they prove to be useful! At the top I alluded to there being interesting concepts for the planetary community, and if I had not made it clear then I should say that it would be a great thing if more members and made their work available in command line tools. Spending a little time to polish them up makes these utilities better for your own use and will benefit the community as a whole if they are made available.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>First</title>
-      <link>https://andrewannex.github.io/first/</link>
+      <link>https://andrewannex.github.io/post/first/</link>
       <pubDate>Mon, 05 Sep 2016 00:30:40 -0400</pubDate>
       
-      <guid>https://andrewannex.github.io/first/</guid>
-      <description>Welcome to my blog! I will be adding more content here about my studies and research over the next few weeks and months.
-thanks for reading. -A</description>
+      <guid>https://andrewannex.github.io/post/first/</guid>
+      <description>
+
+&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to my blog!&lt;/h1&gt;
+
+&lt;p&gt;I will be adding more content here about my studies and research over the next few weeks and months.&lt;/p&gt;
+
+&lt;p&gt;thanks for reading.
+-A&lt;/p&gt;
+</description>
     </item>
     
   </channel>

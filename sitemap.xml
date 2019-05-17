@@ -3,40 +3,144 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://andrewannex.github.io/moody-and-circ/</loc>
-    <lastmod>2018-01-07T16:53:33-05:00</lastmod>
+    <loc>https://andrewannex.github.io/authors/admin/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://andrewannex.github.io/about/</loc>
-    <lastmod>2018-01-07T16:14:57-05:00</lastmod>
+    <loc>https://andrewannex.github.io/publication_types/2/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://andrewannex.github.io/first/</loc>
-    <lastmod>2016-09-05T00:30:40-04:00</lastmod>
+    <loc>https://andrewannex.github.io/authors/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://andrewannex.github.io/post/</loc>
-    <lastmod>2018-01-07T16:53:33-05:00</lastmod>
+    <loc>https://andrewannex.github.io/authors/burrell-ag/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/tags/foss/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/authors/halford-a/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/authors/kellerman-ac/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/authors/klenzing-j/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/authors/laundal-km/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/authors/ma-j/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/authors/morley-sk/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/publication_types/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/publication/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/tags/python/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/publication/snakes/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/tags/space/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/authors/stansby-d/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/authors/stoneback-ra/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://andrewannex.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://andrewannex.github.io/topics/</loc>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://andrewannex.github.io/</loc>
-    <lastmod>2018-01-07T16:53:33-05:00</lastmod>
+    <lastmod>2018-11-16T00:00:00-05:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/post/moody-and-circ/</loc>
+    <lastmod>2018-01-07T16:53:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/post/</loc>
+    <lastmod>2018-01-07T16:53:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/post/first/</loc>
+    <lastmod>2016-09-05T00:30:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/talk/</loc>
   </url>
   
 </urlset>
