@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Fri, 16 Nov 2018 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://andrewannex.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,109 @@
     <item>
       <title></title>
       <link>https://andrewannex.github.io/authors/admin/</link>
-      <pubDate>Fri, 16 Nov 2018 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 -0500</pubDate>
       
       <guid>https://andrewannex.github.io/authors/admin/</guid>
       <description>Andrew Annex is a planetary scientist and avid coder working on his Ph.D. at JHU.</description>
+    </item>
+    
+    <item>
+      <title>Lewis, K.W.</title>
+      <link>https://andrewannex.github.io/authors/lewis-k.w./</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/lewis-k.w./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Achterberg, R.K.</title>
+      <link>https://andrewannex.github.io/authors/achterberg-r.k./</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/achterberg-r.k./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anderson, C.M.</title>
+      <link>https://andrewannex.github.io/authors/anderson-c.m./</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/anderson-c.m./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ansty, T.M.</title>
+      <link>https://andrewannex.github.io/authors/ansty-t.m./</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/ansty-t.m./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bjoraker, G.L.</title>
+      <link>https://andrewannex.github.io/authors/bjoraker-g.l./</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/bjoraker-g.l./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jennings, D.E.</title>
+      <link>https://andrewannex.github.io/authors/jennings-d.e./</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/jennings-d.e./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lombardo, N.A.</title>
+      <link>https://andrewannex.github.io/authors/lombardo-n.a./</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/lombardo-n.a./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nixon, C.A.</title>
+      <link>https://andrewannex.github.io/authors/nixon-c.a./</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/nixon-c.a./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rice, M.</title>
+      <link>https://andrewannex.github.io/authors/rice-m./</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/rice-m./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Romani, P.N.</title>
+      <link>https://andrewannex.github.io/authors/romani-p.n./</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/romani-p.n./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Samuelson, R.E.</title>
+      <link>https://andrewannex.github.io/authors/samuelson-r.e./</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/samuelson-r.e./</guid>
+      <description></description>
     </item>
     
     <item>
@@ -99,6 +198,51 @@
       <pubDate>Fri, 16 Nov 2018 00:00:00 -0500</pubDate>
       
       <guid>https://andrewannex.github.io/authors/stoneback-ra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eichelberger, C.N.</title>
+      <link>https://andrewannex.github.io/authors/eichelberger-c.n./</link>
+      <pubDate>Thu, 21 May 2015 00:00:00 -0400</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/eichelberger-c.n./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fox, A.</title>
+      <link>https://andrewannex.github.io/authors/fox-a./</link>
+      <pubDate>Thu, 21 May 2015 00:00:00 -0400</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/fox-a./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hughes, J.N.</title>
+      <link>https://andrewannex.github.io/authors/hughes-j.n./</link>
+      <pubDate>Thu, 21 May 2015 00:00:00 -0400</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/hughes-j.n./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hulbert, A.</title>
+      <link>https://andrewannex.github.io/authors/hulbert-a./</link>
+      <pubDate>Thu, 21 May 2015 00:00:00 -0400</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/hulbert-a./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ronquest, M.</title>
+      <link>https://andrewannex.github.io/authors/ronquest-m./</link>
+      <pubDate>Thu, 21 May 2015 00:00:00 -0400</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/ronquest-m./</guid>
       <description></description>
     </item>
     
