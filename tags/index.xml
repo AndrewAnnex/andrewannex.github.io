@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2020 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://andrewannex.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FOSS</title>
+      <link>https://andrewannex.github.io/tags/foss/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/tags/foss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://andrewannex.github.io/tags/python/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Space</title>
+      <link>https://andrewannex.github.io/tags/space/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/tags/space/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spice</title>
+      <link>https://andrewannex.github.io/tags/spice/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/tags/spice/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Arabia Terra</title>
@@ -85,38 +121,11 @@
     </item>
     
     <item>
-      <title>Python</title>
-      <link>https://andrewannex.github.io/tags/python/</link>
-      <pubDate>Mon, 11 Nov 2019 00:00:00 -0500</pubDate>
-      
-      <guid>https://andrewannex.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Space</title>
-      <link>https://andrewannex.github.io/tags/space/</link>
-      <pubDate>Mon, 11 Nov 2019 00:00:00 -0500</pubDate>
-      
-      <guid>https://andrewannex.github.io/tags/space/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Titan</title>
       <link>https://andrewannex.github.io/tags/titan/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 -0500</pubDate>
       
       <guid>https://andrewannex.github.io/tags/titan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FOSS</title>
-      <link>https://andrewannex.github.io/tags/foss/</link>
-      <pubDate>Fri, 16 Nov 2018 00:00:00 -0500</pubDate>
-      
-      <guid>https://andrewannex.github.io/tags/foss/</guid>
       <description></description>
     </item>
     

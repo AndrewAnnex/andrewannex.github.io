@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2020 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://andrewannex.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,136 @@
     <item>
       <title></title>
       <link>https://andrewannex.github.io/authors/admin/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
       
       <guid>https://andrewannex.github.io/authors/admin/</guid>
       <description>Andrew Annex is a planetary scientist and avid coder working on his Ph.D. at JHU.</description>
+    </item>
+    
+    <item>
+      <title>Ben Pearson</title>
+      <link>https://andrewannex.github.io/authors/ben-pearson/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/ben-pearson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benoît Seignovert</title>
+      <link>https://andrewannex.github.io/authors/beno%C3%AEt-seignovert/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/beno%C3%AEt-seignovert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brian Carcich</title>
+      <link>https://andrewannex.github.io/authors/brian-carcich/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/brian-carcich/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Helge Eichhorn</title>
+      <link>https://andrewannex.github.io/authors/helge-eichhorn/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/helge-eichhorn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jesse Mapel</title>
+      <link>https://andrewannex.github.io/authors/jesse-mapel/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/jesse-mapel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Johan von Forstner</title>
+      <link>https://andrewannex.github.io/authors/johan-von-forstner/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/johan-von-forstner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jonathan McAuliffe</title>
+      <link>https://andrewannex.github.io/authors/jonathan-mcauliffe/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/jonathan-mcauliffe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jorge del Rio</title>
+      <link>https://andrewannex.github.io/authors/jorge-del-rio/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/jorge-del-rio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K.-Michael Aye</title>
+      <link>https://andrewannex.github.io/authors/k.-michael-aye/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/k.-michael-aye/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kristin Berry</title>
+      <link>https://andrewannex.github.io/authors/kristin-berry/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/kristin-berry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marcel Stefko</title>
+      <link>https://andrewannex.github.io/authors/marcel-stefko/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/marcel-stefko/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Miguel de Val-Borro</title>
+      <link>https://andrewannex.github.io/authors/miguel-de-val-borro/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/miguel-de-val-borro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shankar Kulumani</title>
+      <link>https://andrewannex.github.io/authors/shankar-kulumani/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/shankar-kulumani/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shin-ya Murakami</title>
+      <link>https://andrewannex.github.io/authors/shin-ya-murakami/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/authors/shin-ya-murakami/</guid>
+      <description></description>
     </item>
     
     <item>
