@@ -3,6 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://andrewannex.github.io/post/</loc>
+    <lastmod>2020-04-15T12:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/post/spiceypy_msl_example/</loc>
+    <lastmod>2020-04-15T12:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://andrewannex.github.io/</loc>
+    <lastmod>2020-04-15T12:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://andrewannex.github.io/authors/admin/</loc>
     <lastmod>2020-02-21T00:00:00-05:00</lastmod>
   </url>
@@ -145,12 +161,6 @@
   
   <url>
     <loc>https://andrewannex.github.io/tags/</loc>
-    <lastmod>2020-02-21T00:00:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://andrewannex.github.io/</loc>
     <lastmod>2020-02-21T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -346,11 +356,6 @@
   
   <url>
     <loc>https://andrewannex.github.io/post/moody-and-circ/</loc>
-    <lastmod>2018-01-07T16:53:33-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://andrewannex.github.io/post/</loc>
     <lastmod>2018-01-07T16:53:33-05:00</lastmod>
   </url>
   

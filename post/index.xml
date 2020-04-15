@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Sun, 07 Jan 2018 16:53:33 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 12:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://andrewannex.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using SpiceyPy to map the Curiosity rover (MSL)</title>
+      <link>https://andrewannex.github.io/post/spiceypy_msl_example/</link>
+      <pubDate>Wed, 15 Apr 2020 12:00:00 -0500</pubDate>
+      
+      <guid>https://andrewannex.github.io/post/spiceypy_msl_example/</guid>
+      <description>Using SpiceyPy to map the Curiosity rover (MSL). note: Here is a link to a gist jupter notebook of this tutorial
+In this post, I provide a worked out tutorial for using my library SpiceyPy and some of the standard python libraries to make a map of the Curiosity Rover (Mars Science Laboratory) position on the surface of Mars for a number of years.
+Step 1: getting kernels I am interested in MSL&amp;rsquo;s movements from landing in 2012 to 2016, so I used this PDS tool to download the kernel list I need from 2012-08-07 to 2016-08-06 at https://naif.</description>
+    </item>
     
     <item>
       <title>Moody and Circ</title>
