@@ -1,47 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on ※</title>
-    <link>https://andrewannex.github.io/post/</link>
-    <description>Recent content in Posts on ※</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>{year}</copyright>
-    <lastBuildDate>Wed, 15 Apr 2020 12:00:00 -0500</lastBuildDate>
-    
-	<atom:link href="https://andrewannex.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Using SpiceyPy to map the Curiosity rover (MSL)</title>
-      <link>https://andrewannex.github.io/post/spiceypy_msl_example/</link>
-      <pubDate>Wed, 15 Apr 2020 12:00:00 -0500</pubDate>
-      
-      <guid>https://andrewannex.github.io/post/spiceypy_msl_example/</guid>
-      <description>Using SpiceyPy to map the Curiosity rover (MSL). note: Here is a link to a gist jupter notebook of this tutorial
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ※</title><link>https://andrewannex.github.io/post/</link><description>Recent content in Posts on ※</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>{year}</copyright><lastBuildDate>Wed, 15 Apr 2020 12:00:00 -0500</lastBuildDate><atom:link href="https://andrewannex.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Using SpiceyPy to map the Curiosity rover (MSL)</title><link>https://andrewannex.github.io/post/spiceypy_msl_example/</link><pubDate>Wed, 15 Apr 2020 12:00:00 -0500</pubDate><guid>https://andrewannex.github.io/post/spiceypy_msl_example/</guid><description>Using SpiceyPy to map the Curiosity rover (MSL). note: Here is a link to a gist jupter notebook of this tutorial
 In this post, I provide a worked out tutorial for using my library SpiceyPy and some of the standard python libraries to make a map of the Curiosity Rover (Mars Science Laboratory) position on the surface of Mars for a number of years.
-Step 1: getting kernels I am interested in MSL&amp;rsquo;s movements from landing in 2012 to 2016, so I used this PDS tool to download the kernel list I need from 2012-08-07 to 2016-08-06 at https://naif.</description>
-    </item>
-    
-    <item>
-      <title>Moody and Circ</title>
-      <link>https://andrewannex.github.io/post/moody-and-circ/</link>
-      <pubDate>Sun, 07 Jan 2018 16:53:33 -0500</pubDate>
-      
-      <guid>https://andrewannex.github.io/post/moody-and-circ/</guid>
-      <description>Although SpiceyPy is my largest public python package, this blog post will be about two smaller, but conceptually important projects that I have started that I think present some interesting concepts for the planetary science community.
-Both of these tools are Command Line Interfaces (CLIs) that are built upon the excellent python package &amp;ldquo;python-fire&amp;rdquo;. Fire is able to produce a rich command line utility from the existing functions in a python file or class, with essentially no additional code other than the import for fire and a single function call.</description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>https://andrewannex.github.io/post/first/</link>
-      <pubDate>Mon, 05 Sep 2016 00:30:40 -0400</pubDate>
-      
-      <guid>https://andrewannex.github.io/post/first/</guid>
-      <description>Welcome to my blog! I will be adding more content here about my studies and research over the next few weeks and months.
-thanks for reading. -A</description>
-    </item>
-    
-  </channel>
-</rss>
+Step 1: getting kernels I am interested in MSL&amp;rsquo;s movements from landing in 2012 to 2016, so I used this PDS tool to download the kernel list I need from 2012-08-07 to 2016-08-06 at https://naif.</description></item><item><title>Moody and Circ</title><link>https://andrewannex.github.io/post/moody-and-circ/</link><pubDate>Sun, 07 Jan 2018 16:53:33 -0500</pubDate><guid>https://andrewannex.github.io/post/moody-and-circ/</guid><description>Although SpiceyPy is my largest public python package, this blog post will be about two smaller, but conceptually important projects that I have started that I think present some interesting concepts for the planetary science community.
+Both of these tools are Command Line Interfaces (CLIs) that are built upon the excellent python package &amp;ldquo;python-fire&amp;rdquo;. Fire is able to produce a rich command line utility from the existing functions in a python file or class, with essentially no additional code other than the import for fire and a single function call.</description></item><item><title>First</title><link>https://andrewannex.github.io/post/first/</link><pubDate>Mon, 05 Sep 2016 00:30:40 -0400</pubDate><guid>https://andrewannex.github.io/post/first/</guid><description>Welcome to my blog! I will be adding more content here about my studies and research over the next few weeks and months.
+thanks for reading. -A</description></item></channel></rss>
