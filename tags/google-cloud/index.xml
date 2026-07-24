@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Google Cloud on ※</title><link>https://andrewannex.com/tags/google-cloud/</link><description>Recent content in Google Cloud on ※</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>{year}</copyright><lastBuildDate>Thu, 16 May 2019 10:10:35 -0400</lastBuildDate><atom:link href="https://andrewannex.com/tags/google-cloud/index.xml" rel="self" type="application/rss+xml"/><item><title>FDL 2019</title><link>https://andrewannex.com/project/fdl2019/</link><pubDate>Thu, 16 May 2019 10:10:35 -0400</pubDate><guid>https://andrewannex.com/project/fdl2019/</guid><description>Frontier Development Lab AI Researcher: Flood prediction</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Google Cloud on ※</title><link>https://andrewannex.com/tags/google-cloud/</link><description>Recent content in Google Cloud on ※</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>{year}</copyright><lastBuildDate>Thu, 16 May 2019 10:10:35 -0400</lastBuildDate><atom:link href="https://andrewannex.com/tags/google-cloud/index.xml" rel="self" type="application/rss+xml"/><item><title>FDL 2019</title><link>https://andrewannex.com/project/fdl2019/</link><pubDate>Thu, 16 May 2019 10:10:35 -0400</pubDate><guid>https://andrewannex.com/project/fdl2019/</guid><description>&lt;p&gt;The Frontier Development Lab is a highly competitive research ~10 week internship experience held at SETI in Mountain View California each summer. I was placed on the Floods team, where our research goal was to apply machine learning to predict flood events from USGS river gage data, using the Google Cloud to accelerate the science. I had a awesome time in California as well and our work resulted in multiple NeurIPS conference workshop papers. To learn more about our work, check out the video link above and the video about our work produced by Google Cloud below!&lt;/p&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/mf0U40ag0gc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class="gallery"&gt;
+&lt;a data-fancybox="gallery-imgs" href="https://andrewannex.com/project/fdl2019/imgs/1.jpg" &gt;
+&lt;img src="https://andrewannex.com/project/fdl2019/imgs/1_hu_2894cc7660d06055.jpg" alt=""&gt;
+&lt;/a&gt;
+&lt;a data-fancybox="gallery-imgs" href="https://andrewannex.com/project/fdl2019/imgs/3.jpg" &gt;
+&lt;img src="https://andrewannex.com/project/fdl2019/imgs/3_hu_25375940941cee7a.jpg" alt=""&gt;
+&lt;/a&gt;
+&lt;a data-fancybox="gallery-imgs" href="https://andrewannex.com/project/fdl2019/imgs/4.jpg" &gt;
+&lt;img src="https://andrewannex.com/project/fdl2019/imgs/4_hu_82bdf89294908189.jpg" alt=""&gt;
+&lt;/a&gt;
+&lt;a data-fancybox="gallery-imgs" href="https://andrewannex.com/project/fdl2019/imgs/5.jpg" &gt;
+&lt;img src="https://andrewannex.com/project/fdl2019/imgs/5_hu_b0cb9add60316419.jpg" alt=""&gt;
+&lt;/a&gt;
+&lt;a data-fancybox="gallery-imgs" href="https://andrewannex.com/project/fdl2019/imgs/6.jpg" &gt;
+&lt;img src="https://andrewannex.com/project/fdl2019/imgs/6_hu_124779424fdfe78c.jpg" alt=""&gt;
+&lt;/a&gt;
+&lt;a data-fancybox="gallery-imgs" href="https://andrewannex.com/project/fdl2019/imgs/7.jpg" &gt;
+&lt;img src="https://andrewannex.com/project/fdl2019/imgs/7_hu_3e3c65c7621bddc3.jpg" alt=""&gt;
+&lt;/a&gt;
+&lt;/div&gt;</description></item></channel></rss>
